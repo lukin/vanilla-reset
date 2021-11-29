@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/package",
   "name": "vanilla-reset",
   "//version": "Follow CalVer specs at https://calver.org/",
-  "version": "2021.11.22",
+  "version": "2021.11.29",
   "description": "🍦 A tiny modern CSS reset for vanilla-extract",
   "keywords": [
     "css",
@@ -14,9 +14,10 @@
   "license": "MIT",
   "author": "Anton Lukin <anton@lukin.dev> (https://lukin.dev)",
   "files": [
-    "index.css.ts"
+    "src/index.css.ts",
+    "index.ts"
   ],
-  "exports": "./index.css.ts",
+  "exports": "./index.ts",
   "type": "module",
   "repository": "lukin/vanilla-reset",
   "scripts": {
